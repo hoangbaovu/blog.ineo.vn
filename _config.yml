@@ -16,6 +16,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
 author:
   name:           'Hoàng Bảo Vũ'
   url:            https://facebook.com/ineo.vn
+  bio:            I'm a front-end developer. I have a passion for web design and love to create for web and mobile.
 
 paginate:         5
 # paginate_path:    '/page:num'
