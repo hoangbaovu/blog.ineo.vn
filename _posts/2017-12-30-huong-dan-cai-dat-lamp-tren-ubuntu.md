@@ -57,7 +57,11 @@ Bước đầu tiên, sử dụng lệnh sau để cài đặt phpMyAdmin:
 sudo apt-get install phpmyadmin
 ```
 
-Trong quá trình cài đặt, hệ thống sẽ hỏi chúng ta chọn web server nào được tự động cấu hình khi chạy phpMyAdmin. Lúc này các bạn chọn `apache2` rồi nhấn `Enter` nhé.
+Trong quá trình cài đặt, hệ thống sẽ hỏi chúng ta chọn web server nào được tự động cấu hình khi chạy phpMyAdmin.
+
+![alt text](http://sv1.upsieutoc.com/2017/12/30/u3.jpg "Chọn apache2")
+
+Lúc này các bạn chọn `apache2` rồi nhấn `Enter` nhé.
 
 Sau đó, hệ thống sẽ yêu cầu tạo mật khẩu cho phpMyAdmin thì các bạn cứ dùng mật khẩu đã tạo ở bước cài đặt MySQL cho dễ nhớ.
 
@@ -72,6 +76,7 @@ Thêm dòng này vào cuối file vừa mở
 ```
 Include /etc/phpmyadmin/apache.conf
 ```
+Sau đó lưu lại
 
 Cuối cùng khởi động lại Apache bằng lệnh
 
@@ -82,3 +87,5 @@ sudo service apache2 restart
 Mở trình duyệt, vào địa chỉ [localhost/phpmyadmin](http://localhost/phpmyadmin)
 
 phpMyadmin sẽ yêu cầu nhập tài khoản và mật khẩu thì các bạn nhập `root` và mật khẩu mà bạn đã tạo ở phần cài đặt.
+
+OK, việc cài đặt LAMP trên Ubuntu đến đây đã hoàn tất!
