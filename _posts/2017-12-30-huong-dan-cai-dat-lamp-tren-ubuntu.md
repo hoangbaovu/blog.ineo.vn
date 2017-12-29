@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hướng dẫn cài đặt LAMP trên Ubuntu
+comments: true
 excerpt_separator:  <!--more-->
 ---
 
