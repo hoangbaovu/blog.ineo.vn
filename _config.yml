@@ -36,7 +36,6 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:             https://github.com/hoangbaovu
-  repo:             https://github.com/hoangbaovu/blog.ineo.vn
 
 disqus:
   shortname: blog-ineo-vn
