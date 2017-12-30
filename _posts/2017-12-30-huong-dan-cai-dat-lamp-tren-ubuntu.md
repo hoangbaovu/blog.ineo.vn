@@ -37,7 +37,7 @@ sudo tasksel install lamp-server
 
 Tiếp theo màn hình sẽ hiện cài đặt MySQL password
 
-![alt text](http://sv1.upsieutoc.com/2017/12/30/u2.jpg "mysql password")
+![alt text](/assets/images/2017/12/30/ubuntu-2.jpg "mysql password")
 
 Nhập mật khẩu MySQL (Ở đây mình nhập mật khẩu `admin`)
 
@@ -47,7 +47,7 @@ Sau bước này là bạn đã hoàn thành cài đặt LAMP (LINUX, Apache, PH
 
 Bây giờ bạn mở trình duyệt, truy cập vào [localhost](http://localhost) trên trình duyệt sẽ được trang website như hình dưới:
 
-![alt text](http://sv1.upsieutoc.com/2017/12/30/u1.jpg "localhost")
+![alt text](/assets/images/2017/12/30/ubuntu-1.jpg "localhost")
 
 
 ### # Cài đặt phpMyAdmin
@@ -60,7 +60,7 @@ sudo apt-get install phpmyadmin
 
 Trong quá trình cài đặt, hệ thống sẽ hỏi chúng ta chọn web server nào được tự động cấu hình khi chạy phpMyAdmin.
 
-![alt text](http://sv1.upsieutoc.com/2017/12/30/u3.jpg "Chọn apache2")
+![alt text](/assets/images/2017/12/30/ubuntu-3.jpg "Chọn apache2")
 
 Lúc này các bạn chọn `apache2` rồi nhấn `Enter` nhé.
 
